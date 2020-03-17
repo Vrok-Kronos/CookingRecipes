@@ -1,0 +1,97 @@
+:root {
+    --MenuBar-height: 120px;
+    --MenuBar-padding: 1% 20%;
+    --Variable-padding: 20%;
+}
+
+#ActivePage {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.MenuBar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0%;
+    margin: 0px;
+    padding: var(--MenuBar-padding);
+    height: var(--MenuBar-height);
+    background-color: blue;
+    color: white;
+}
+
+.MenuList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ListItems {
+    float: left;
+}
+
+.ListLink {
+    display: block;
+    margin: 1px;
+    padding: 10px;
+    color: blue;
+    background-color: yellow;
+    border: 3px solid yellow;
+    border-radius: 8px;
+}
+
+.TopSpacer {
+    height: var(--MenuBar-height);
+    padding: var(--MenuBar-padding);
+}
+
+.Recipe {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 250px;
+    border: 2px solid blue;
+}
+
+.Recipe:hover {
+    border: 2px solid darkgoldenrod;
+}
+
+.Recipe img {
+    width: 100%;
+    height: auto;
+}
+
+.Description {
+    padding: 5px;
+    text-align: center;
+}
+
+.FlourInfo {
+    margin: 15px var(--Variable-padding);
+    padding: 0;
+}
+
+.WaffleInfo {
+    margin: 15px var(--Variable-padding);
+    padding: 0;
+}
+
+.Pictures {
+    margin: 0px;
+    padding: 1% var(--Variable-padding);
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+a {
+    color: black;
+}
+
+li a:hover {
+    color: white;
+    background-color: purple;
+}
