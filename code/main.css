@@ -1,12 +1,17 @@
 :root {
-    --MenuBar-height: 120px;
-    --MenuBar-padding: 1% 20%;
-    --Variable-padding: 20%;
+    --MenuBar-height: calc(60px + 5vw);
+    --MenuBar-padding: 1vh 20vw;
+    --Variable-padding: 20vw;
 }
 
 #ActivePage {
-    background-color: blue;
+    background-color: hsl(240, 100%, 20%);
     color: whitesmoke;
+}
+
+.PageTitle {
+    height: 5vw;
+    padding: 5px 0;
 }
 
 .MenuBar {
@@ -17,8 +22,13 @@
     margin: 0px;
     padding: var(--MenuBar-padding);
     height: var(--MenuBar-height);
-    background-color: blue;
+    min-height: 50px;
+    background-color: hsl(240, 100%, 20%);
     color: white;
+}
+
+.MenuBox {
+    margin: 5px;
 }
 
 .MenuList {
@@ -34,15 +44,23 @@
 .ListLink {
     display: block;
     margin: 1px;
-    padding: 10px;
-    color: blue;
-    background-color: yellow;
-    border: 3px solid yellow;
+    padding: 5px 10px;
+    color: hsl(240, 100%, 40%);
+    background-color: hsl(60, 100%, 40%);
+    border: 3px solid hsl(60, 100%, 40%);
     border-radius: 8px;
+    /*height: 2vw;
+    min-height: 15px;
+    max-height: 20px;
+    width: 3vw;
+    min-width: 40px;
+    max-width: 40px;
+    font-size: inherit;*/
 }
 
 .TopSpacer {
     height: var(--MenuBar-height);
+    min-height: 50px;
     padding: var(--MenuBar-padding);
 }
 
@@ -50,12 +68,12 @@
     float: left;
     margin: 5px;
     padding: 0px;
-    width: 28%;
-    border: 2px solid blue;
+    width: 16vw;
+    border: 2px solid hsl(240, 100%, 40%);
 }
 
 .RecipePicture:hover {
-    border: 2px solid darkgoldenrod;
+    border: 2px solid hsl(60, 100%, 40%);
 }
 
 .RecipePicture img {
@@ -68,12 +86,7 @@
     text-align: center;
 }
 
-.FlourInfo {
-    margin: 15px var(--Variable-padding);
-    padding: 0;
-}
-
-.WaffleInfo {
+.ViewerInfo {
     margin: 15px var(--Variable-padding);
     padding: 0;
 }
@@ -85,6 +98,10 @@
 
 body {
     background-color: whitesmoke;
+}
+
+h1 {
+    font-size: calc(5px + 2.1vw);
 }
 
 a {
