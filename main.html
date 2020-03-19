@@ -8,43 +8,58 @@
     </head>
     
     <body>
-        <div class="MenuBar">
-            <h2>
+        <header class="MenuBar">
+            <h1>
                 Johnson Home Cooking Recipes - Homepage
-            </h2>
-            <ul class="MenuList">
-                <!-- Home is active page here -->
-                <li class="ListItems">
-                    <a id="ActivePage" class="ListLink" href="main.html">Home</a>
-                </li>
-                <li class="ListItems">
-                    <a class="ListLink" href="flour.html">Flour</a>
-                </li>
-            </ul>
-        </div>
+            </h1>
+            <nav>
+                <ul class="MenuList">
+                    <!-- Home is active page here -->
+                    <li class="ListItems">
+                        <a id="ActivePage" class="ListLink" href="main.html">Home</a>
+                    </li>
+                    <li class="ListItems">
+                        <a class="ListLink" href="flour.html">Flour</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
         <div class="TopSpacer"></div>
 
-        <div class="Pictures">
-            <div id="Waffles" class="Recipe">
-                <a href="waffles.html">
-                    <img src="waffles.jpeg" alt="Waffle Recipe" 
-                    width="500" height="500">
-                </a>
-                <div class="Description">
-                    Waffles
-                </div>    
+        <main>
+            <div class="Pictures">
+                <div id="Waffles" class="RecipePicture">
+                    <a href="waffles.html">
+                        <img class="RPimg" src="waffles.jpeg" alt="Waffle Recipe" 
+                        width="500" height="375">
+                    </a>
+                    <div class="Description">
+                        Waffles
+                    </div>    
+                </div>
+
+                <div id="ItemTwo" class="RecipePicture">
+                    <a href="#">
+                        <img class="RPimg" src="chocolatepie.png" alt="Item Two" 
+                        width="500" height="375">
+                    </a>
+                    <div class="Description">
+                        Pies
+                    </div>    
+                </div>
+
+                <div id="ItemThree" class="RecipePicture">
+                    <a href="#">
+                        <img class="RPimg" src="pie.jpeg" alt="Item Three" 
+                        width="500" height="375">
+                    </a>
+                    <div class="Description">
+                        Pies
+                    </div>    
+                </div>
+                
             </div>
-            <div id="ItemTwo" class="Recipe">
-                <a href="#">
-                    <img src="pie.jpeg" alt="Item Two" 
-                    width="500" height="500">
-                </a>
-                <div class="Description">
-                    Pies
-                </div>    
-            </div>
-            
-        </div>
+        </main>
     </body>
 </html>

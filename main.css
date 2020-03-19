@@ -46,19 +46,19 @@
     padding: var(--MenuBar-padding);
 }
 
-.Recipe {
+.RecipePicture {
     float: left;
     margin: 5px;
-    padding: 5px;
-    width: 250px;
+    padding: 0px;
+    width: 28%;
     border: 2px solid blue;
 }
 
-.Recipe:hover {
+.RecipePicture:hover {
     border: 2px solid darkgoldenrod;
 }
 
-.Recipe img {
+.RecipePicture img {
     width: 100%;
     height: auto;
 }
