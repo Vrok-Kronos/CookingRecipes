@@ -9,6 +9,10 @@
     color: whitesmoke;
 }
 
+/*#SecondWaffleIngredients {
+    margin: 0;
+}*/
+
 .PageTitle {
     height: 5vw;
     padding: 5px 0;
@@ -92,8 +96,16 @@
 }
 
 .Pictures {
-    margin: 0px;
+    margin: 0px;    
     padding: 1% var(--Variable-padding);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.WaffleIngredients {
+    display: flex;
+    flex-direction: column;
+
 }
 
 body {
