@@ -93,6 +93,8 @@
 .ViewerInfo {
     margin: 15px var(--Variable-padding);
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .Pictures {
@@ -102,11 +104,11 @@
     flex-wrap: wrap;
 }
 
-.WaffleIngredients {
+/*.WaffleIngredients {
     display: flex;
     flex-direction: column;
 
-}
+}*/
 
 body {
     background-color: whitesmoke;
