@@ -97,6 +97,10 @@
     flex-direction: column;
 }
 
+.VIHeadingSize {
+    font-size: 20px;
+}
+
 .Pictures {
     margin: 0px;    
     padding: 1% var(--Variable-padding);
