@@ -171,9 +171,6 @@
 }
 
 .Credits {
-    position: -webkit-sticky;
-    position: sticky;
-    bottom: 0px;
     font-size: 12px;
 }
 
