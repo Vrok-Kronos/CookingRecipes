@@ -82,6 +82,17 @@
     font-size: calc(14px + 0.2vw);
 }
 
+.ListLink2 {
+    display: block;
+    margin: 1px 1px 1px 20px;
+    padding: 5px 10px;
+    color: hsl(240, 100%, 40%);
+    background-color: hsl(60, 100%, 40%);
+    border: 3px solid hsl(60, 100%, 40%);
+    border-radius: 8px;
+    font-size: calc(14px + 0.2vw);
+}
+
 .TopSpacer {
     height: var(--MenuBar-height);
     min-height: 50px;
@@ -155,12 +166,23 @@
     padding-left: 30px;
 }
 
+.BulletList li {
+    margin: 2px 0px;
+}
+
+.Credits {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0px;
+    font-size: 12px;
+}
+
 body {
     background-color: whitesmoke;
 }
 
 h1 {
-    font-size: calc(8px + 2.3vw);
+    font-size: calc(15px + 1vw);
 }
 
 a {
