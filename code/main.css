@@ -157,6 +157,15 @@
     margin: 12px 0;
 }
 
+.VILink {
+    text-decoration: underline;
+}
+
+.VILink:hover {
+    color: white;
+    background-color: black;
+}
+
 .CenterText {
     text-align: center;
 }
