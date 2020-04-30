@@ -10,7 +10,9 @@
         </title>
 
         <link rel="stylesheet" href="code/reset.css">
-        <link rel="stylesheet" href="code/main.css">
+        <link rel="stylesheet" media="screen and (max-width: 599px)" href="code/less599rework.css">
+        <link rel="stylesheet" media="screen and (min-width: 600px)" href="code/more600.css">
+
     </head>
     
     <body>
@@ -22,17 +24,15 @@
             </div>
 
             <nav>
-                <!--<div class="MenuBox">-->
-                    <ul class="MenuList">
-                        <!-- Home is active page here -->
-                        <li class="ListItems">
-                            <a id="ActivePage" class="ListLink" href="index.html">Recipes</a>
-                        </li>
-                        <li class="ListItems">
-                            <a class="ListLink" href="recipes/flour.html">GF Flour</a>
-                        </li>
-                    </ul>
-                <!--</div>-->
+                <ul class="MenuList">
+                    <!-- Home is active page here -->
+                    <li class="ListItems">
+                        <a id="ActivePage" class="ListLink" href="index.html">Recipes</a>
+                    </li>
+                    <li class="ListItems">
+                        <a class="ListLink" href="recipes/flour.html">GF Flour</a>
+                    </li>
+                </ul>
             </nav>
         </header>
 
@@ -80,11 +80,11 @@
                 <div id="ItemFour" class="RecipePicture">
                     <a href="types/breakfast.html">
                         <div class="TopImage">
-                            <img class="RPimg" src="images/noimage.png" alt="Breakfastlike" 
+                            <img class="RPimg" src="images/noimage.png" alt="Breakfast" 
                             width="500" height="375">
                         </div>
                         <div class="BottomDescription">
-                            Breakfastlike
+                            Breakfast
                         </div>   
                     </a> 
                 </div>
